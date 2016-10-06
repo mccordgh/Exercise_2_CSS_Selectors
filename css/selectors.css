@@ -23,22 +23,27 @@ nav li {
 }
 
 
-
-
-#redGuy {
+.redGuy {
 	color: red;
 }
 
-#blueGuy {
+.blueGuy {
 	color: blue;
 }
 
-#redGuy h4 {
+.redGuy h4 {
+	color: black;
 	background-color: red;
 }
 
-#blueGuy h4 {
+.blueGuy h4 {
+	color: black;
 	background-color: blue;
+}
+
+.grandparent h4 {
+	border: 1px solid yellow;
+	border-radius: 100px;
 }
 
 
@@ -56,4 +61,13 @@ a .disabled {
 
 .active {
 	color: yellow;
+}
+
+.promo {
+	color: gold;
+	font-weight: bold;
+}
+
+.padded input {
+	height: 25px;
 }
