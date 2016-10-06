@@ -1,0 +1,59 @@
+header {
+	border: 1px solid orange;
+}
+
+nav {
+	/*background-color: lightblue;*/
+}
+
+
+nav ul {
+	list-style: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+nav li {
+	text-align: center;
+	padding: 5px 0;
+	float: left;
+	width: 33.3333%;
+}
+
+
+
+
+#redGuy {
+	color: red;
+}
+
+#blueGuy {
+	color: blue;
+}
+
+#redGuy h4 {
+	background-color: red;
+}
+
+#blueGuy h4 {
+	background-color: blue;
+}
+
+
+
+
+
+
+.disabled {
+	color: grey;
+}
+
+a .disabled {
+	color: red;
+}
+
+.active {
+	color: yellow;
+}
